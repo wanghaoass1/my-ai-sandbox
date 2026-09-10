@@ -302,7 +302,7 @@ def compact_history(role_data, char_name, persona_text, llm_call, *,
 
 # ☁️ 定义服务器本地保存数据的隐藏 JSON 文件路径
 DATA_FILE = "sandbox_private_db.json"
-model_name = st.sidebar.text_input("模型名称 (Model)", value="deepseek-v4-flash")
+model_name = st.sidebar.text_input("模型名称 (Model)", value="deepseek-flash")
 
 # =========================================================
 # ✨ 修改后的初始化区域：完美的无感自动加载，极度干净！
